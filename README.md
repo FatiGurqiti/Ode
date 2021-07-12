@@ -29,6 +29,9 @@ If you click on the _Add Payement_ button you will be directed to the page which
 `
                 FirebaseFirestore db = FirebaseFirestore.getInstance();
                 OdeApi odeApi = OdeApi.getInstance();
+                
+                `
+                `
                 // Create a new user with a first and last name
                 Map<String, Object> debt = new HashMap<>();
                 debt.put("ONO", odeApi.getUserId());
