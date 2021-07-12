@@ -1,5 +1,4 @@
 # odeMobile
-Ode android app made with Android Studio
 
 **Öde** is an android project made for the Mobile Developement class in VSITE university.
 
@@ -18,7 +17,7 @@ On the opening page of the app you should see the log in page.If you don't have 
 _E-mail_ will not accept any given input if it isn't on correct e-mail format.
 Also _Pin_ will not accept any character or special symbol.
 
-Once you complete all the input's,program will check if they are all in correct format.If given e-mail adress does not exist on the _FireBase_,your info's will be saved to the database.In this process, firebase also creates an unique user ID for you.This will also be used in many other parts of the program.
+Once you complete all the input,program will check if they are all in correct format.If given e-mail adress does not exist on the _FireBase_,your info's will be saved to the database.In this process, firebase also creates an unique user ID for you.This will also be used in many other parts of the program.
 
 Once you successfully create your account,the app should automaticly direct you to the Log in page.Here,you can enter your informations and click on the _Sign in_ button.
 If you successfully log in,you will be directed to the main page of the app with a greeting text on the bottom.
