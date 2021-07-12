@@ -68,7 +68,7 @@ Once it's successfully done,you can view the database on the console of Firebase
 ![Image of FireBase](https://github.com/FatiGurqiti/odeMobile/blob/master/images/2.bmp)
 
 If you get back to the main page and click on the middle button on the bottom menu,you can view the debt that you recently added.
-It also shows the added date on the bottom of the text so that it give the user a better idea when this event happened.
+It also shows the added date on the bottom of the text so that it give the user a better idea when this event happenes.
 
 ![Image of Debt](https://github.com/FatiGurqiti/odeMobile/blob/master/images/3.bmp)
 
