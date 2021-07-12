@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "978849087157",
+    "project_id": "ode-v2",
+    "storage_bucket": "ode-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978849087157:android:7ea965a878db8d444c88fc",
+        "android_client_info": {
+          "package_name": "com.example.ode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978849087157-rk9d3ic38dco9039cfo19a044j6k7mot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtnN9nsG1PnKiI4btszeFQOV3VHcHF5O8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978849087157-rk9d3ic38dco9039cfo19a044j6k7mot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
