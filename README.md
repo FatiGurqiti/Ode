@@ -72,7 +72,8 @@ It also shows the added date on the bottom of the text so that it give the user 
 
 ![Image of Debt](https://github.com/FatiGurqiti/odeMobile/blob/master/images/3.bmp)
 
-If you click on the right button on the right menu,you will be directed to the _Profile_ page.Here you can view your userID or Log out.
+If you click on the right button on the bottom menu,you will be directed to the _Profile_ page.
+Here you can view your userID or Log out.
 
 Log out button uses the _FirebaseAuth_ in order to sign out the user.
 
