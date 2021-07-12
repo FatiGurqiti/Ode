@@ -83,12 +83,12 @@ Log out button uses the _FirebaseAuth_ in order to sign out the user.
         mAuth.signOut();
 `
 
-It is also required to set the values of the API to _null_ in order to avoid getting informations of the same user next time.
+It is also required to set the values of the API to _empty_ in order to avoid getting informations of the same user next time.
 
 `
   OdeApi odeApi = OdeApi.getInstance();
-        odeApi.setUsername(null);
-        odeApi.setUserId(null);
+        odeApi.setUsername(" ");
+        odeApi.setUserId(" ");
 `
 
 After all these process,the program simply opens the log in activity
