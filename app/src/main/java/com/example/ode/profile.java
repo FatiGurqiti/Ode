@@ -80,8 +80,8 @@ public class profile extends AppCompatActivity {
         mAuth.signOut();
 
         OdeApi odeApi = OdeApi.getInstance();
-        odeApi.setUsername(null);
-        odeApi.setUserId(null);
+        odeApi.setUsername(" ");
+        odeApi.setUserId(" ");
 
         Intent profileintent = new Intent(this,MainActivity.class);
         startActivity(profileintent);

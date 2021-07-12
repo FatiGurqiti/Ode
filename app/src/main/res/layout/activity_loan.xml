@@ -125,7 +125,7 @@
         android:id="@+id/loanContext"
         android:layout_width="331dp"
         android:layout_height="34dp"
-        android:text="Somebody owes you 52 HRK with label of doner parasi kanka"
+        android:text="You don't have any loan coimng up"
         android:textAlignment="center"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"

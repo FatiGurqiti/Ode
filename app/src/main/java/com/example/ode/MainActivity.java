@@ -29,6 +29,8 @@ import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
+import static android.content.ContentValues.TAG;
+
 public class MainActivity extends AppCompatActivity {
 
     private FirebaseAuth firebaseAuth;
@@ -77,7 +79,14 @@ public class MainActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                login(pin.getText().toString(),mail.getText().toString());
+
+                try{
+                login(pin.getText().toString(),mail.getText().toString());}
+                catch (Exception e){
+                    Log.i(TAG, e.getMessage());
+
+
+                }
 
 
             }
@@ -118,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
 
             FirebaseAuth.AuthStateListener authStateListener;
 
-            mAuth.signInWithEmailAndPassword(email,password)
+            mAuth.signInWithEmailAndPassword(password,email)
                     .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
@@ -162,6 +171,12 @@ public class MainActivity extends AppCompatActivity {
                     .addOnFailureListener(new OnFailureListener() {
                         @Override
                         public void onFailure(@NonNull Exception e) {
+
+                            Log.i(TAG, e.getMessage());
+
+
+                            finish();
+                            startActivity(getIntent());
 
                         }
                     });
