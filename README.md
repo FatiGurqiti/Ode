@@ -19,7 +19,7 @@ Also _Pin_ will not accept any character or special symbol.
 
 Once you complete all the input,program will check if they are all in correct format.If given e-mail adress does not exist on the _FireBase_,your info's will be saved to the database.In this process, firebase also creates an unique user ID for you.This will also be used in many other parts of the program.
 
-Once you successfully create your account,the app should automaticly direct you to the Log in page.Here,you can enter your informations and click on the _Sign in_ button.
+Once you successfully create your account,the app should automatically direct you to the Log in page.Here,you can enter your informations and click on the _Sign in_ button.
 If you successfully log in,you will be directed to the main page of the app with a greeting text on the bottom.
 
 In this area app uses a local **API**.The task of the API is to take your user name and user ID through the program so that the program can access your needed data such as _username_ or _userID_.
