@@ -26,7 +26,7 @@ In this area app uses a local **API**.The task of the API is to take your user n
 
 If you click on the _Add Payement_ button you will be directed to the page which you add your payments.In here you can enter needed informations and once you click on the _ADD_ button the program will use the API to get your userID and save it to Firebase collection.
 
-`
+``
                 FirebaseFirestore db = FirebaseFirestore.getInstance();
                 OdeApi odeApi = OdeApi.getInstance();
          
@@ -37,11 +37,11 @@ If you click on the _Add Payement_ button you will be directed to the page which
                 debt.put("label", label.getText().toString());
                 debt.put("ammount", Double.parseDouble(ammount.getText().toString()));
                 debt.put("date",new Timestamp(new Date()));
-`
+``
 
 In order to add these to the databse it is needed to specify the collection.
 
-`     db.collection("debt")
+```     db.collection("debt")
                         .add(debt)
                         .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                             @Override
@@ -59,7 +59,7 @@ In order to add these to the databse it is needed to specify the collection.
                         });
 
 
-`
+```
 
 Once it's successfully done,you can view the database on the console of Firebase:
 
