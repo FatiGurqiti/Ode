@@ -25,7 +25,7 @@ public class MainMenu extends AppCompatActivity {
 
 
         Toast.makeText(MainMenu.this, "Welcome " + OdeApi.getInstance().getUsername(),
-                Toast.LENGTH_LONG).show();
+               Toast.LENGTH_LONG).show();
 
         setContentView(R.layout.activity_main_menu);
         BottomNavigationView navView = findViewById(R.id.nav_view);

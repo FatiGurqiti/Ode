@@ -77,10 +77,11 @@ public class profile extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         FirebaseUser user = mAuth.getCurrentUser();
+        mAuth.signOut();
 
         OdeApi odeApi = OdeApi.getInstance();
-        odeApi.setUsername(" ");
-        odeApi.setUserId(" ");
+        odeApi.setUsername(null);
+        odeApi.setUserId(null);
 
         Intent profileintent = new Intent(this,MainActivity.class);
         startActivity(profileintent);
