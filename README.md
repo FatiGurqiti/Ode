@@ -1,4 +1,4 @@
-# odeMobile
+# Öde Mobile
 
 **Öde** is an android project made for the Mobile Developement class in VSITE university.
 
